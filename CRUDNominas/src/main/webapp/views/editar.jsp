@@ -30,8 +30,8 @@
             <div class="campo">
                 <label for="sexo">Sexo</label>
                 <select id="sexo" name="sexo" required>
-                    <option value="M" ${empleado.sexo == 'M' ? 'selected' : ''}>M</option>
-                    <option value="F" ${empleado.sexo == 'F' ? 'selected' : ''}>F</option>
+                    <option value="M" ${empleado.sexo.toString() == 'M' ? 'selected' : ''}>M</option>
+                    <option value="F" ${empleado.sexo.toString() == 'F' ? 'selected' : ''}>F</option>
                 </select>
             </div>
             <div class="campo">
